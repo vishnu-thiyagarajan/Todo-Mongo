@@ -2,7 +2,7 @@ const connection = require('./model')
 require('dotenv').config()
 const express = require('express')
 const app = express()
-const PORT = process.env.SERVER_PORT || 8080
+const PORT = process.env.SERVER_PORT
 connection()
 
 const cors = require('cors')
