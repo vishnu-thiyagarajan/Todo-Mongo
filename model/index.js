@@ -17,8 +17,7 @@ module.exports = function () {
   mongoose.connect(dbURL, { useNewUrlParser: true, useUnifiedTopology: true })
 
   mongoose.connection.on('connected', function () {
-    console.log(dbURL)
-    console.log(connected('Mongoose default connection is open to ', dbURL))
+    console.log(connected('Mongoose default connection is open'))
   })
 
   mongoose.connection.on('error', function (err) {
