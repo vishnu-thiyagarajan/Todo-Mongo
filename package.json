@@ -1,13 +1,13 @@
 {
   "name": "mongo-todo",
   "version": "1.0.0",
-  "description": "",
+  "description": "A NodeJS app which serves data for todo react app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
-  "author": "",
+  "author": "Vishnu T",
   "license": "ISC",
   "dependencies": {
     "chalk": "^3.0.0",
@@ -17,5 +17,12 @@
     "express-handlebars": "^3.1.0",
     "mongoose": "^5.8.9",
     "nodemon": "^2.0.2"
+  },
+  "engines": {
+    "node": "13.2.0" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vishnu-thiyagarajan/Todo-Mongo"
   }
 }
